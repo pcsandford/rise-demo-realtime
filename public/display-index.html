@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Template Demo Display </title>	
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="The Template Demo display is a showcase for templates and demonstrates the availability of realtime communication between the display and a mobile device." />
+
+		<!-- Schema.org markup for Google+ -->
+		<meta itemprop="name" content="Template Demo Display">
+		<meta itemprop="description" content="The Template Demo display is a showcase for templates and demonstrates the availability of realtime communication between the display and a mobile device.">
+		<meta itemprop="image" content="">
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@RiseVision">
+		<meta name="twitter:title" content="Template Demo Display">
+		<meta name="twitter:description" content="The Template Demo display is a showcase for templates and demonstrates the availability of realtime communication between the display and mobile device.">
+		<meta name="twitter:image:src" content="">
+
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Template Demo Display" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="" />
+		<meta property="og:image" content="" />
+		<meta property="og:description" content="The Template Demo display is a showcase for templates and demonstrates the availability of realtime communication between the display and mobile device." />
+    
+<!--Fav Icon-->
+<link rel="shortcut icon" href="http://rise-vision.github.io/content-templates/favicon.ico" />
+
+		<!-- Base MasterSlider style sheet -->
+		<link href="style/masterslider.css" type='text/css' rel="stylesheet"/>
+		
+		<!-- Master Slider Skin -->
+		<link href="style/style.css" rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="main.css">
+		 
+		<!-- google font Lato 
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+		-->
+		
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		
+		<!-- Master Slider -->
+		<script src="js/masterslider.min.js"></script>
+		<script src="js/script.js"></script>
+
+		<script src="js-comms/lib_primus.js"></script>
+		<script src="https://realtime.risevision.com/js/realtime-comms-client.js"></script>
+		<script src="test-display.js"></script>	
+		
+	
+	
+
+	</head>
+		
+	<body>
+
+	<!-- template -->
+	<iframe id="test-display-iframe" class="display-holder" src="http://rise-vision.github.io/content-templates/events/events.html" frameborder="0"></iframe>
+	<div class="wrapper">
+
+	<div class="testButton">
+		<img src="images/menu-button.svg" alt="menu button">
+	</div>
+	<div class="ms-lightbox-template">
+				<!-- masterslider -->
+				<div class="master-slider ms-skin-default" id="masterslider">
+
+				 <div class="QRcode">
+				 <img src="images/qrcode.svg" alt="">
+					<p> SCAN FOR MOBILE NAVIGATION</p>
+				</div>
+
+				    <div class="ms-slide">
+
+				        <img class="ms-thumb" src="images/thumbnail-events.png" alt="thumb" data-full="http://rise-vision.github.io/content-templates/events/events.html"/>
+				  
+				    </div>
+				    <div class="ms-slide">
+				    
+				        <img class="ms-thumb" src="images/thumbnail-hotel.png" alt="thumb" data-full="http://swbloom.github.io/hotel/"/>
+				    
+				    </div>
+				    <div class="ms-slide">
+				     
+				        <img class="ms-thumb" src="images/thumbnail-menu.png" alt="thumb" data-full="http://rise-vision.github.io/content-templates/restaurant-menuboard/restaurant-menuboard.html"/>  
+				   
+				    </div>
+				    <div class="ms-slide">
+				       
+				        <img class="ms-thumb" src="images/thumbnail-restaurantpromotion.png" alt="thumb" data-full="http://rise-vision.github.io/content-restaurant-promotion/index.html"/>  
+				  
+				    </div>
+				    <div class="ms-slide">
+				      
+				        <img class="ms-thumb" src="images/thumbnail-accessories.png" alt="thumb" data-full="http://rise-vision.github.io/content-retail-qrcode/"/>  
+				    
+				    </div>
+				    <div class="ms-slide">
+				     
+				        <img class="ms-thumb" src="images/thumbnail-schoolcalendar.png" alt="thumb" data-full="http://rise-vision.github.io/content-templates/school-calendar/school-calendar.html" /> 
+				           
+				    </div>
+				    <div class="ms-slide">
+				    
+				        <img class="ms-thumb" src="images/thumbnail-teacher.png" alt="thumb" data-full="http://rise-vision.github.io/content-templates/teacher-profile/teacher-profile.html"/>
+				    
+				    </div>
+				    <div class="ms-slide">
+				    
+				        <img class="ms-thumb" src="images/thumbnail-fashion.png" alt="thumb" data-full="http://rise-vision.github.io/Retail-In-Store-Display/src/index.html"/>
+				       
+				    </div>
+				    <div class="ms-slide">
+				    
+				        <img class="ms-thumb" src="images/thumbnail-elegance.png" alt="thumb" data-full="http://pcsandford.github.io/"/>
+				     
+				    </div>
+				    <div class="ms-slide">
+				  
+				        <img class="ms-thumb" src="images/thumbnail-hospital.png" alt="thumb" data-full="http://rise-vision.github.io/content-hospital/"/>
+				 
+				    </div>
+				    <div class="ms-slide">
+				   
+				        <img class="ms-thumb" src="images/thumbnail-schoollunch.png" alt="thumb" data-full="http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/school-lunch/school-lunch.html" />
+				       
+				    </div>
+				    <div class="ms-slide">
+				      
+				        <img class="ms-thumb" src="images/thumbnail-timeless.png" alt="thumb" data-full="http://swbloom.github.io/"/>
+				     
+				    </div>
+				    <div class="ms-slide">
+				       
+				        <img class="ms-thumb" src="images/thumbnail-cafe.png" alt="thumb" data-full="http://rise-vision.github.io/cafe-template/src/index.html"/>
+				 
+				    </div>
+				    <div class="ms-slide">
+				  
+				        <img class="ms-thumb" src="images/thumbnail-retail.png" alt="thumb" data-full="http://rise-vision.github.io/content-templates/retail/retail.html"/>
+				   
+				    </div>
+				     <div class="ms-slide">
+				   
+				        <img class="ms-thumb" src="images/thumbnail-directions.png" alt="thumb" data-full="http://www.cameroncodes.com/webcomponents/"/>
+				       
+				    </div>
+
+				    <div class="ms-slide blocker">
+				   
+				        <img class="ms-thumb" src=""/>
+				       
+				    </div>
+				
+				</div>
+				<!-- end of masterslider -->
+	</div>
+	<!-- end of template -->
+	</div> <!-- close wrapper -->
+	</body>
+	
+	<script type="text/javascript">		
+	
+		var slider = new MasterSlider();
+
+		slider.control('arrows');	
+		slider.control('thumblist' , {type:'thumbs',autohide:false ,dir:'h',align:'bottom', width:300, height:128, margin:0, space:30 , hideUnder:400});
+
+		slider.setup('masterslider' , {
+			width:6000,
+			// height:1920,
+			// space:5,
+			loop:true,
+			// view:'fade'
+			layout:'fullscreen'
+		});
+		
+
+	</script>
+</html>

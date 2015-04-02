@@ -1,0 +1,24 @@
+{
+  "name": "rtc-proto",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Primus/SockJS Server",
+  "dependencies": {
+    "express": "4.11.1",
+    "body-parser": "1.11.0",
+    "method-override": "2.3.1",
+    "morgan": "1.5.1",
+    "serve-favicon": "2.2.0",
+    "serve-static": "1.8.1",
+    "winston": "0.8.3",
+
+    "forever-monitor": "1.5.2",
+
+    "primus": "2.4.12",
+    "primus-emitter": "3.0.3",
+    "primus-spark-latency": "0.1.1",
+    "sockjs": "0.3.12",
+
+    "qr-image": "3.1.0"
+  }
+}

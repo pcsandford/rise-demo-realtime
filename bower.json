@@ -1,0 +1,13 @@
+{
+  "name": "rtc-proto",
+  "dependencies": {
+    "angular": "~1.2.x",
+    "angular-resource": "~1.2.x",
+    "angular-sanitize": "~1.2.x",
+    "angular-ui-router": "~0.2.13",
+    "jquery": "~1.11.2",
+    "jquery-ui": "~1.11.2",
+    "jquery-ui-touch-punch-valid": "0.2.2",
+    "q": "~1.1.2"
+  }
+}

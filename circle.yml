@@ -1,0 +1,11 @@
+test:
+  override:
+    - npm test
+
+deployment:
+  production:
+    branch: /.*/
+    commands:
+      - rsync -rptz -e ssh --delete ./ realtime@realtime.risevision.com:/rise-realtime/server
+      - ssh realtime@realtime.risevision.com sudo chmod u+x /rise-realtime/server/install.sh
+      - ssh realtime@realtime.risevision.com sudo /rise-realtime/server/install.sh prod
